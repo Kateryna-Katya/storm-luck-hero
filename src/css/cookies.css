@@ -1,0 +1,106 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./footer.css');
+@import url('./container.css');
+.background{
+
+    background-color: #F0F0F0;
+}
+.button-policy{
+  position: absolute;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  font-family: "play", sans-serif;
+font-weight: 300;
+font-size: 16px;
+line-height: 1.2;
+color: #201f24;
+border: none;
+background-color: inherit;
+}
+  .cookies-title{
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 130%;
+    letter-spacing: -0.04em;
+    color: #b42d2d;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+    }
+    .cookies-text{
+      font-family: "play", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #070d12;
+    }
+    .cookies-subtitle{
+      font-family: "play", sans-serif;
+font-weight: 700;
+font-size: 32px;
+line-height: 130%;
+color: #070d12;
+margin-top: 16px;
+margin-bottom: 16px;
+    }
+   .cookies-rules-title{
+      font-family: "play", sans-serif;
+font-weight: 700;
+font-size: 24px;
+line-height: 130%;
+color: #070d12;
+margin-bottom: 16px;
+margin-top: 16px;
+    }
+    .cookies-list{
+      font-family: "play", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 130%;
+      color: #070d12;
+      list-style-type: disc;
+        padding-left: 20px;
+    }
+    .cookies-link{
+      text-decoration: underline;
+    }
+    .break-url{
+      word-break: break-all;
+    }
+    .cookies-digit{
+      font-family: "play", sans-serif;
+font-weight: 400;
+font-size: 15px;
+line-height: 150%;
+color: #070d12;
+    }
+    @media only screen and (min-width:1439px) {
+      .cookies-title{
+        font-size: 44px;
+        margin-top: 24px;
+            margin-bottom: 24px;
+            line-height: 150%;
+            }
+            .cookies-subtitle{
+        margin-top: 20px;
+        margin-bottom: 16px;
+        line-height: 150%;
+            }
+            .cookies-rules-title{
+        line-height: 150%;
+            }
+            .cookies-list{
+              line-height: 150%;
+            }
+            .cookies-text{
+              line-height: 150%;
+              font-size: 16px;
+            }
+            .cookies-container{
+        padding-left: 189px;
+        padding-right: 189px;
+          }
+    }
