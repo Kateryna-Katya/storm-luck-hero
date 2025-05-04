@@ -354,3 +354,206 @@ margin-top: -130px;
     display: none;
 }
 }
+/* Meet Our EXPERTS */
+.expert-section{
+    background: #070d12;
+}
+.expert-title{
+    font-family: "Grape Nuts", sans-serif;
+font-weight: 400;
+font-size: 34px;
+line-height: 1.3;
+color: #f0f0f0;
+margin-bottom: 24px;
+margin-left: 16px;
+}
+.expert-span{
+    font-family: "Bungee Inline", sans-serif;
+font-weight: 400;
+font-size: 34px;
+line-height: 1.3;
+color: #b42d2d;
+}
+.expert-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.expert-item{
+    border: 1px solid #f0f0f0;
+padding: 16px;
+height: auto;
+}
+.expert-img{
+    margin-bottom: 16px;
+}
+.expert-subtitle{
+    font-family: "Play", sans-serif;
+font-weight: 700;
+font-size: 24px;
+line-height: 1.3;
+text-align: center;
+color: #b42d2d;
+margin-bottom: 8px;
+}
+.expert-text{
+    font-family: "Grape Nuts", sans-serif;
+font-weight: 400;
+font-size: 19px;
+line-height: 1.2;
+text-align: center;
+color: #f0f0f0;
+margin-bottom: 8px;
+}
+.expert-desk{
+    font-family: "Play", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.3;
+text-align: center;
+color: #f0f0f0;
+}
+@media only screen and (min-width:1439px) {
+    .expert-title{
+    font-size: 44px;
+    margin-bottom: 40px;
+    margin-left: 0;
+    }
+    .expert-span{
+    font-size: 44px;
+    } 
+    .expert-list{
+        display: flex;
+        flex-direction: row;
+        gap: 56px;
+        flex-wrap: nowrap;
+    }
+    .expert-item{
+        border: 1px solid #f0f0f0;
+    padding: 16px;
+    width: 280px;
+    height: 485px;
+    }
+    .expert-desk{
+   width: 248px;
+    }
+}
+/* Why Choose Us */
+.choose-section{
+    background-color: #112f3b;
+    background-image: url("/img/choose/arrow-mob.png");
+    background-repeat: no-repeat;
+    background-position: top 108px center;
+    background-size: contain;
+}
+.choose-title{
+    font-family: "Grape Nuts", sans-serif;
+font-weight: 400;
+font-size: 34px;
+line-height: 1.3;
+color: #f0f0f0;
+margin-bottom: 252px;
+margin-left: 37px;
+}
+.choose-span{
+    font-family: "Bungee Inline", sans-serif;
+font-weight: 400;
+font-size: 34px;
+line-height: 1.3;
+color: #d4991a;
+}
+.choose-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.choose-item{
+    background: #070d12;
+    padding: 8px;
+    height: auto;
+}
+.choose-text-container{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.number-choose{
+    font-family: "Bungee Inline", sans-serif;
+font-weight: 400;
+font-size: 54px;
+line-height: 1;
+text-align: center;
+color: #f0f0f0;
+margin-left: 16px;
+}
+.subtitle-choose{
+    font-family: "Bungee Inline", sans-serif;
+font-weight: 400;
+font-size: 21px;
+line-height: 1.3;
+color: #d4991a;
+width: 223px;
+}
+.desk-choose{
+    font-family: "Play", sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.3;
+text-align: center;
+color: #f0f0f0;
+width: 320px;
+}
+@media only screen and (min-width:1439px) {
+    .choose-section{
+        background-image: url("/img/choose/arrow-desk.png");
+        background-repeat: no-repeat;
+        background-position: top 148px center;
+        background-size: 100% 856px;
+        height: 1041px;
+    } 
+    .choose-title{
+     font-size: 44px;
+      margin-bottom: 80px;
+    margin-left: 0;
+    }
+    .choose-span{
+    font-size: 44px;
+    }  
+    .choose-list{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-left: 580px;
+        width: 704px;
+        height: 756px;
+          }
+    .choose-item{
+        background: #070d12;
+        padding: 8px;
+        height: auto;
+    }
+    .choose-text-container{
+        display: flex;
+        gap: 16px;
+        align-items: start;
+        margin-bottom: 0;
+    }
+    .number-choose{
+    font-size: 64px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    }
+    .subtitle-choose{
+    font-size: 28px;
+    width: 560px;
+    }
+    .desk-choose{
+    font-size: 28px;
+    width: 580px;
+    margin-left: 80px;
+    text-align: left;
+    margin-top: -40px;
+    }
+}
