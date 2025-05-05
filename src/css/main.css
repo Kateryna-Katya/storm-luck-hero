@@ -1,7 +1,7 @@
 /* Hero */
 .hero-section{
     background-image:url("/img/hero/hero-mob.png");
-    background-position: top center;
+    background-position: top 40px center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 764px;
@@ -12,6 +12,7 @@ font-weight: 400;
 font-size: 32px;
 line-height: 1.3;
 color: #070d12;
+margin-top: 40px;
 }
 .hero-title{
     font-family: "Bungee Inline", sans-serif;
