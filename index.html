@@ -14,22 +14,80 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type="module" crossorigin src="/storm-luck-hero/index.js"></script>
     <link rel="modulepreload" crossorigin href="/storm-luck-hero/assets/vendor-Cl1sraJX.js">
     <link rel="stylesheet" crossorigin href="/storm-luck-hero/assets/vendor-BMD19QWe.css">
-    <link rel="stylesheet" crossorigin href="/storm-luck-hero/assets/index-hO0Me2AH.css">
+    <link rel="stylesheet" crossorigin href="/storm-luck-hero/assets/index-CndPXMJ7.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-
+    <header class="header" data-color="#091018">
+  <div class="container header-container">
+    <nav class="nav ">
+      <button type="button" class="menu-button" aria-label="button for open menu">
+        <svg class="header-svg" width="24" height="24">
+          <use href="/storm-luck-hero/assets/sprite-B1C2S1ag.svg#icon-burger"></use>
+        </svg>
+      </button>
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="links" href="#Home">Home</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Offer">What We Offer</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Adrenaline">Adrenaline Experiences</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Stories">Success Stories</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Choose">Why Choose Us</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Ready">Get Ready</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Experts">Our Experts</a>
+        </li>
+      </ul>
     </nav>
   </div>
 </header>
-
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+  <button class="modal-close-button" aria-label="close button">
+    <svg class="modal-svg" width="24" height="24">
+      <use href="/storm-luck-hero/assets/sprite-B1C2S1ag.svg#icon-cross"></use>
+    </svg>
+  </button>
+  <ul class="menu-list">
+    <li class="menu-item" ><a class="menu-list-item" href="#Home">Home</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="#Offer">What We Offer</a></li>
+    <li class="menu-item">
+      <a class="menu-list-item" href="#Adrenaline">Adrenaline Experiences</a>
+    </li>
+    <li class="menu-item"><a class="menu-list-item" href="#Stories">Success Stories</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="#Choose">Why Choose Us</a></li>
+    <li class="menu-item">
+      <a class="menu-list-item" href="#Ready">Get Ready</a>
+    </li>
+    <li class="menu-item"><a class="menu-list-item" href="#Experts">Our Experts</a></li>
+  </ul>
+    <ul class="policy-list">
+    <li class="policy-item">      
+      <a class="menu-list-item list-condition" href="Privacy%20Policy.html">Privacy Policy</a>
+    </li>
+    <li class="policy-item">      
+      <a class="menu-list-item list-condition" href="Terms & Conditions.html">Terms & Conditions</a>
+    </li>
+    <li class="policy-item">   
+      <a class="menu-list-item list-condition" href="Cookies Policy.html">Cookies Policy</a>
+    </li>
+  </ul>
+</div>
 
     <main>
       <!-- Loads the specified .html file -->
        <!-- Hero -->
- <section class="hero-section">
+ <section class="hero-section" id="Home">
     <div class="container">
         <p class="welcome-text">Welcome to</p>
         <h1 class="hero-title">Storm Luck <span class="title-span">Hero</span></h1>
@@ -42,7 +100,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     </div>
  </section>
  <!-- Offer -->
-  <section class="offer-section">
+  <section class="offer-section" id="Offer">
     <div class="container offer-container">
 <h2 class="offer-title">What We <span class="offer-span">Offer</span></h2>
 
@@ -126,7 +184,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     </div>
   </section>
   <!-- Adrenaline EXPERIENCES -->
-  <article class="adrenaline-section">
+  <article class="adrenaline-section" id="Adrenaline">
 <div class="container adrenaline-container">
   <h2 class="adrenaline-title">Adrenaline <span class="adrenaline-span">EXPERIENCES</span>
     </h2>
@@ -182,7 +240,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 </div>
   </article>
   <!-- Meet Our EXPERTS -->
-   <section class="expert-section">
+   <section class="expert-section" id="Experts">
     <div class="container">
       <h2 class="expert-title">Meet Our <span class="expert-span">EXPERTS</span>
         </h2>
@@ -239,7 +297,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     </div>
    </section>
    <!-- Why Choose Us -->
-    <section class="choose-section">
+    <section class="choose-section" id="Choose">
       <div class="container">
         <h2 class="choose-title">Why <span class="choose-span">Choose Us</span>
           </h2>
@@ -278,7 +336,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
       </div>
     </section>
     <!-- Success STORIES -->
-     <section class="stories-section">
+     <section class="stories-section" id="Stories">
       <div class="container">
         <h2 class="stories-title">Success <span class="stories-span">STORIES</span>
           </h2>
@@ -313,7 +371,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
       </div>
      </section>
      <!-- Get Ready for the CHALLENGE -->
-<section class="challenge-section">
+<section class="challenge-section" id="Ready">
   <div class="container">
     <h2 class="challenge-title">Get Ready for the <span class="challenge-span">CHALLENGE</span>
       </h2>
