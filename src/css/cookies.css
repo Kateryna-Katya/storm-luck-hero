@@ -7,8 +7,6 @@
     background-color: #F0F0F0;
 }
 .button-policy{
-  position: absolute;
-  top: 30px;
   display: flex;
   align-items: center;
   font-family: "play", sans-serif;

@@ -3,12 +3,9 @@
 @import url('./footer.css');
 @import url('./container.css');
 .background{
-
     background-color: #F0F0F0;
 }
 .button-policy{
-  position: absolute;
-  top: 30px;
   display: flex;
   align-items: center;
   font-family: "play", sans-serif;
@@ -22,13 +19,14 @@ background-color: inherit;
   .terms-title{
     font-family: "Bungee Inline", sans-serif;
     font-weight: 400;
-    font-size: 34px;
+    font-size: 30px;
     line-height: 130%;
     letter-spacing: -0.04em;
     color: #b42d2d;
     margin-top: 24px;
     margin-bottom: 24px;
     text-align: center;
+    width: 100%;
     }
     .terms-text{
       font-family: "play", sans-serif;
