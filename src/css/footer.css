@@ -1,0 +1,35 @@
+.footer{
+    background: #070d12;
+}
+.footer-navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    font-family: "Play", sans-serif;
+font-weight: 400;
+font-size: 20px;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #f0f0f0;
+margin-bottom: 43px;
+}
+.footer-text{
+    font-family: "Play", sans-serif;
+font-weight: 400;
+font-size: 14px;
+color: #f0f0f0;
+text-align: center;
+}
+@media only screen and (min-width:1439px) {
+    .footer-navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 48px;
+    margin-bottom: 43px;
+    }  
+    .footer-text{
+    font-size: 16px;
+    } 
+}
